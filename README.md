@@ -34,7 +34,22 @@ Values were read from the published figures with WebPlotDigitizer (`data/raw/`) 
 - Between 190 and 210 °C, the flow activation energy is 42 kJ/mol, close to the 40 ± 1 kJ/mol reported for polypropylene by Fambri et al. (2008).
 - At 220 and 230 °C, the viscosity drops faster than the Arrhenius equation predicts, which raises the apparent activation energy to 57 kJ/mol. This is consistent with thermal degradation (chain scission) at high temperature, but the data alone cannot confirm it.
 
-## Planned analysis
+### 2. Viscosity model fitting (Sample B)
 
-2. Viscosity model fitting (Sample B)
-3. Extrusion die pressure drop
+![Viscosity model fits for polypropylene at 190 °C](figures/model_fits.png)
+
+*(a) Flow curve of Sample B at 190 °C from a rotational rheometer (orange) and a capillary rheometer (blue), with three fitted viscosity models. The shaded band marks typical extrusion shear rates (about 100-1000 s⁻¹). (b) Difference between each model and the data.*
+
+| Model | η₀ (Pa·s) | λ (s) | n | K (Pa·sⁿ) | Typical error |
+|---|---|---|---|---|---|
+| Power law (≥ 50 s⁻¹ only) | - | - | 0.32 | 15,600 | 11% |
+| Cross | 4,646 | 0.15 | 0.31 | - | 7% |
+| Carreau | 4,170 | 0.27 | 0.38 | - | 16% |
+
+- The viscosity falls by a factor of almost 400, from about 4,600 Pa·s on the plateau to about 12 Pa·s at 38,500 s⁻¹. This strong shear thinning is typical of polypropylene.
+- The Cross model fits best over the whole range (typical error 7%). Its time constant λ ≈ 0.15 s means shear thinning starts at about 1/λ ≈ 7 s⁻¹: above this rate, the polymer chains no longer have time to relax and start to align with the flow.
+- The Carreau model bends from the plateau into shear thinning too sharply for this polymer, with errors of up to about 28%.
+- The power law describes the high-shear region well (n ≈ 0.32) but has no plateau, so it predicts unrealistically high viscosities at low shear rates.
+- In the extrusion range, the Cross and power-law models predict viscosities 8-15% below the capillary data. One reason is that the rotational and capillary measurements differ by about 13% where they overlap (around 50 s⁻¹).
+
+## Planned analysis
