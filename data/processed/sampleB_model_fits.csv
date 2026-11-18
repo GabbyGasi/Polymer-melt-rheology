@@ -1,0 +1,4 @@
+model,eta0_Pa_s,lambda_s,n,K_Pa_s_n,typical_error_percent
+Power law,NaN,NaN,0.316,15602,11
+Cross,4646,0.1509,0.308,NaN,6.8
+Carreau,4170,0.2715,0.378,NaN,16.1
