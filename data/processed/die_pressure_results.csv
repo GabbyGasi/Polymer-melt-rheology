@@ -1,0 +1,6 @@
+case,pressure_drop_bar,wall_shear_rate_1_per_s
+Newtonian (190 C),876.4,472
+Power law (190 C),50.1,727
+Cross (190 C),49.6,694
+Cross (210 C),42.3,NaN
+Cross (230 C),32.1,NaN
