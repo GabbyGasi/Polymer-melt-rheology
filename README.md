@@ -53,3 +53,5 @@ Values were read from the published figures with WebPlotDigitizer (`data/raw/`) 
 - In the extrusion range, the Cross and power-law models predict viscosities 8-15% below the capillary data. One reason is that the rotational and capillary measurements differ by about 13% where they overlap (around 50 s⁻¹).
 
 ## Planned analysis
+
+3. Extrusion die pressure drop
